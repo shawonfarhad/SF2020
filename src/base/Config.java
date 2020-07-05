@@ -31,13 +31,13 @@ public class Config extends WDFunctions {
 	@AfterMethod
 	public void afterEachTestMethod(){
 		// close browser
-		driver.close();
+		//driver.close();
 		System.out.println (" Test is ended and browser is closeded +++++++ ");
 	}
 	
 	@AfterSuite
 	public void tearDown(){
-		driver.quit();
+		//driver.quit();
 		System.out.println (" Terminated WD +++++++ ");
 	}
 
