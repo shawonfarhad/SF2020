@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="test_signIn.LoginWithValidCredentialUsingEmail">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginWithValidCredentialUsingEmailTest"/>
+          <include name="beforeEachTestMethod"/>
+          <include name="afterEachTestMethod"/>
+          <include name="startTestSuite"/>
+        </methods>
+      </class> <!-- test_signIn.LoginWithValidCredentialUsingEmail -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -15,13 +15,17 @@ public class LoginWithValidCredentialUsingEmail extends Config{
 		System.out.println ("login With Valid Credential Using Email Test start");
 		// click on sign in link from header
 		clickByXpath (signIn.signInLinkLoc);
-		// Enter email
-		typeByCss (signIn.emailLoc, signIn.emailValue);
-		// click Next button
+
+		// enter email Require two things, locator and value
+		//driver.findElement(By.xpath("//*[@id='username'")).sendKeys("test@gmail.com"); // IQBAL BHAI
+		//driver.findElement(By.xpath(signIn.emailLoc)).sendKeys(signIn.emailValue); // OR
+		typeByCss (signIn.emailLoc, signIn.emailValue); // re-use the method/function
+	
+		// click Next button after entering the email
 		clickByXpath (signIn.nextButtonLoc);
-		// enter password
+		
 		typeByXpath (signIn.passwordLoc, signIn.passValue);
-		// click Sign In button
+		// click Sign In button after enter the password
 		clickByXpath (signIn.signInButtonLoc);
 		// Assert --- most important 
 		String act = driver.findElement(By.xpath(signIn.myActualFullNameLoc)).getText(); 

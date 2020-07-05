@@ -18,8 +18,8 @@ public class Config extends WDFunctions {
 	@BeforeMethod
 	public void beforeEachTestMethod(){
 		// Init the browser
-		System.setProperty("webdriver.chrome.driver", "C:/Users/TalentTEK/Documents/GitHub/SFW2020/drivers/chromedriver.exe");
-		driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", (System.getProperty("user.dir")+"/drivers/chromedriver.exe"));
+		driver = new ChromeDriver(); 
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
@@ -37,7 +37,7 @@ public class Config extends WDFunctions {
 	
 	@AfterSuite
 	public void tearDown(){
-		//driver.quit();
+		driver.quit();
 		System.out.println (" Terminated WD +++++++ ");
 	}
 

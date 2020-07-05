@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26510" started-at="2020-07-05T17:26:20Z" finished-at="2020-07-05T17:26:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26510" started-at="2020-07-05T17:26:20Z" finished-at="2020-07-05T17:26:46Z">
+      <class name="test_signIn.LoginWithValidCredentialUsingEmail">
+        <test-method status="PASS" signature="startTestSuite()[pri:0, instance:test_signIn.LoginWithValidCredentialUsingEmail@56f4468b]" name="startTestSuite" is-config="true" duration-ms="70" started-at="2020-07-05T13:26:20Z" finished-at="2020-07-05T13:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestSuite -->
+        <test-method status="PASS" signature="beforeEachTestMethod()[pri:0, instance:test_signIn.LoginWithValidCredentialUsingEmail@56f4468b]" name="beforeEachTestMethod" is-config="true" duration-ms="13795" started-at="2020-07-05T13:26:20Z" finished-at="2020-07-05T13:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestMethod -->
+        <test-method status="PASS" signature="loginWithValidCredentialUsingEmailTest()[pri:0, instance:test_signIn.LoginWithValidCredentialUsingEmail@56f4468b]" name="loginWithValidCredentialUsingEmailTest" duration-ms="12681" started-at="2020-07-05T13:26:34Z" finished-at="2020-07-05T13:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialUsingEmailTest -->
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:test_signIn.LoginWithValidCredentialUsingEmail@56f4468b]" name="afterEachTestMethod" is-config="true" duration-ms="1" started-at="2020-07-05T13:26:46Z" finished-at="2020-07-05T13:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_signIn.LoginWithValidCredentialUsingEmail@56f4468b]" name="tearDown" is-config="true" duration-ms="889" started-at="2020-07-05T13:26:46Z" finished-at="2020-07-05T13:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_signIn.LoginWithValidCredentialUsingEmail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
